@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <title>BOLANGERIE CAFE</title>
+        <style>
+        .head-section {
+            background-color: #999999;
+        }
+
+        body{
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            background-color: #999999;
+        }
+
+        header {
+          background-image: url('https://i.pinimg.com/originals/6f/7d/ea/6f7dea705c7d3dec78c9ae2ce60ee9de.jpg'); 
+          padding: 30px;
+        }
+
+        h1 {
+            font-family: 'Poetsen One', sans-serif;
+            font-size: 60px;
+            color: #ffffff; 
+            font-weight: 500; /* Tambahkan ketebalan font */
+            text-align: center;
+        }
+
+        .btn{
+            background-color: #817460;
+            color: #000000;
+            padding: 5px 10px;
+            font-size: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .fooddrink{
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Poetsen One', sans-serif;
+            color: #ffffff;
+
+        }
+        .menu-item { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: left; 
+            margin-bottom: 30px; 
+        }
+        footer {
+          background-image: url('https://i.pinimg.com/originals/6f/7d/ea/6f7dea705c7d3dec78c9ae2ce60ee9de.jpg'); 
+          padding: 15px;
+          background-position: bottom;
+        }
+        </style>
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="head-section">
+            <header class="hero-section">
+                <div class="container">
+                    <div class="row align-items-center py-4 g-5">
+                        <div class="col-12 col-md-6">
+                            <div class="text-center text-md-start">
+                                <h1 class="me-2 text-danger fw-medium text-white">
+                                    BOLANGERIE CAFE
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!-- Main -->
+        <main>
+            <section class="featured py-5" id="features">
+                <div class="container">
+                    <p class="lead text-dark">
+                        Bolangerie Cafe adalah kafe yang mengundang untuk menikmati momen santai 
+                        sambil menikmati berbagai sajian kuliner khas. Terletak di pusat kota yang 
+                        ramai, kafe ini menjadi tempat favorit bagi pecinta kopi dan makanan lezat 
+                        di sekitarnya. Dengan suasana yang hangat dan pelayanan yang ramah, Bolangerie
+                        Cafe memberikan pengalaman yang menyenangkan bagi setiap pengunjungnya.          
+                    </p>
+                    <h1 class="text-dark fw-bold text-center pt-5 pb-5">
+                        Our Menu !!
+                    </h1>
+                </div>
+
+                <div class="fooddrink">
+                    <h2> FOOD :</h2> 
+                </div><br><br>
+
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-12 col-lg-3">
+                                    <div class="card shadow-sm border-0 rounded">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Corn dog</h3>
+                                            <div class="menu-item">
+                                                <img src="https://i.pinimg.com/originals/80/02/20/80022030a2a17e3be764be381d7c42df.jpg" alt="Gambar menu" class="menu-image">
+                                            </div>
+                                            <h3 class="card-title">Price : 15.000</h3>
+                                            <button class="btn">Order Now !</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="card shadow-sm border-0 rounded">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Sepageti</h3>
+                                            <div class="menu-item">
+                                                <img src="https://i.pinimg.com/originals/00/22/b9/0022b9ae4cff08e1cdfd6eecc739107a.jpg" alt="Gambar menu" class="menu-image">
+                                            </div>
+                                            <h3 class="card-title">Price : 36.000</h3>
+                                            <button class="btn">Order Now !</button> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="card shadow-sm border-0 rounded">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Burger</h3>
+                                            <div class="menu-item">
+                                                <img src="https://i.pinimg.com/originals/4d/5d/98/4d5d981b39836c44755b4f9414ab8de1.webp" alt="Gambar menu" class="menu-image">
+                                            </div>
+                                            <h3 class="card-title">Price : 30.000</h3>
+                                            <button class="btn">Order Now !</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="card shadow-sm border-0 rounded">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Pancake</h3>
+                                            <div class="menu-item">
+                                                <img src="https://i.pinimg.com/originals/73/7c/a7/737ca72da5b467ca59f0cebd78f51b90.jpg" alt="Gambar menu" class="menu-image">
+                                            </div>
+                                            <h3 class="card-title">Price : 20.000</h3>
+                                            <button class="btn">Order Now !</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="card shadow-sm border-0 rounded">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Nasi Goreng</h3>
+                                            <div class="menu-item">
+                                                <img src="https://i.pinimg.com/originals/4d/89/4a/4d894ae7d925293f90b3aa7e5b3a316c.jpg" alt="Gambar menu" class="menu-image">
+                                            </div>
+                                            <h3 class="card-title">Price : 25.000</h3>
+                                        </div>
+                                    </div>
+                                </div>              
+                
+                <div class="fooddrink">
+                     <h2> DRINK :</h2> 
+                </div>
+
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-12 col-lg-3">
+                            <div class="card shadow-sm border-0 rounded">
+                                <div class="card-body">
+                                    <h3 class="card-title">Milkshake</h3>
+                                    <div class="menu-item">
+                                        <img src="https://i.pinimg.com/originals/fc/7d/00/fc7d00de78dce2cde922b7326a7bfdb0.jpg" alt="Gambar menu" class="menu-image">
+                                    </div>
+                                    <h3 class="card-title">Price : 15.000</h3>
+                                    <button class="btn">Order Now !</button>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <div class="card shadow-sm border-0 rounded">
+                                <div class="card-body">
+                                    <h3 class="card-title">Latte</h3>
+                                    <div class="menu-item">
+                                        <img src="https://i.pinimg.com/originals/77/43/93/7743932828a926041d790886372aa630.jpg" alt="Gambar menu" class="menu-image">
+                                    </div>
+                                    <h3 class="card-title">Price : 25.000</h3>
+                                    <button class="btn">Order Now !</button> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <div class="card shadow-sm border-0 rounded">
+                                <div class="card-body">
+                                    <h3 class="card-title">Ice crem</h3>
+                                    <div class="menu-item">
+                                        <img src="https://i.pinimg.com/originals/47/51/32/4751322fdc3c56918e50b8e7f6c16f6b.jpg" alt="Gambar menu" class="menu-image">
+                                    </div>
+                                    <h3 class="card-title">Price : 12.000</h3>
+                                    <button class="btn">Order Now !</button> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <div class="card shadow-sm border-0 rounded">
+                                <div class="card-body">
+                                    <h3 class="card-title">Juice</h3>
+                                    <div class="menu-item">
+                                        <img src="https://i.pinimg.com/originals/73/15/4b/73154b4c5ef5032ecd9fc1636fc22c80.jpg" alt="Gambar menu" class="menu-image">
+                                    </div>
+                                    <h3 class="card-title">Price : 10.000</h3>
+                                    <button class="btn">Order Now !</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <div class="card shadow-sm border-0 rounded">
+                                <div class="card-body">
+                                    <h3 class="card-title">Leachy tea</h3>
+                                    <div class="menu-item">
+                                        <img src="https://i.pinimg.com/originals/59/72/1b/59721bfe496d4a9f55d50a91fddedb81.jpg" alt="Gambar menu" class="menu-image">
+                                    </div>
+                                    <h3 class="card-title">Price : 19.000</h3>
+                                    <button class="btn">Order Now !</button>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+            </section>
+
+
+            <footer>
+                        <div class="col-12 col-lg-4">
+                            <h3 class="fw-bold pb-3 text-white">Our Social Media</h3>
+                            <div class="d-flex">
+                                <a href="" class="text-dark px-3 text-white">
+                                    <img src="https://i.pinimg.com/originals/48/bc/26/48bc26aebd2f4ca14c1717a97f8e75e8.jpg" alt="Tik Tok" class="icon" style="width: 30px; height: 30px;">
+                                    TikTok
+                                </a>
+                                <a href="" class="text-dark px-3 text-white">
+                                    <img src="https://i.pinimg.com/originals/29/d7/dd/29d7dd2e8d516d55bd741cc4f69b9e1f.jpg" alt="Instagram" class="icon" style="width: 30px; height: 30px;">
+                                    Instagram
+                                </a>
+                                <a href="" class="text-dark px-3 text-white">
+                                    <img src="https://i.pinimg.com/originals/5a/d6/80/5ad6800634094486e76b7235d945d1a8.jpg" alt="Twiter" class="icon" style="width: 30px; height: 30px;">
+                                    Twiter
+                                </a>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center copyright text-white"> &copy; Good Mood With Bolangerie Cafe</p>
+            </footer>        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    </body>
+
+</html>
