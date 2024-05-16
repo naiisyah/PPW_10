@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fungsi document.write -->
+    <script>
+        document.write("<h1>Hello gaiss</h1>");
+        document.write("<hr>");
+        document.write("<p>Lagi ngapain nih??</p>");
+        document.write("<b> Belajar PPW</b>");
+        document.write('<a href="https://example.com">Link</a>');
+        document.write('<img src="https://i.pinimg.com/originals/73/7c/a7/737ca72da5b467ca59f0cebd78f51b90.jpg" alt="Description">');
+        document.write('<ul>');
+        document.write('<li>Item 1</li>');
+        document.write('<li>Item 2</li>');
+        document.write('<li>Item 3</li>');
+        document.write('</ul>');
+        document.write('<input type="text" placeholder="Enter your name">');
+        document.write('<div style="background-color: #999999; padding: 20px;">This is a div element</div>');
+    </script>
+</head>
+<body>
+    <!-- fungsi console.log -->
+    <script>
+        console.log("Hello World!!");
+        console.error("Ini pesan kesalahan!");
+        console.warn("Ini pesan peringatan!");
+        console.info("Ini pesan informasi.");
+        console.clear();
+        const data = [
+        { name: "John", age: 30, city: "New York" },
+        { name: "Alice", age: 25, city: "Los Angeles" },
+        { name: "Bob", age: 35, city: "Chicago" }
+        ];
+        console.table(data);
+        console.group("Group A");
+        console.log("Pesan 1 di Group A");
+        console.log("Pesan 2 di Group A");
+        console.groupEnd();
+        console.group("Group B");
+        console.log("Pesan 1 di Group B");
+        console.log("Pesan 2 di Group B");
+        console.groupEnd();
+    </script>
+    <!-- fungsi alert -->
+    <script>
+        alert("Selamat datang di tutor js with syahla");
+
+        function sayHello(){
+            alert("Hello !");
+        }
+    </script>
+    <!-- fungsi inner -->
+    <h1>Mau apa sih?</h1>
+    <div id="hasil-output"></div>
+
+    <script>
+        // membuat objek elemen
+        var hasil = document.getElementById("hasil-output");
+        hasil.innerHTML = "<p>Mau makan</p>";
+    </script>
+</body>
+</html>
