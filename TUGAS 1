@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- cara penulisan javascrip secara embed (ditempel langsung pada HTML) -->
+    <script>
+        console.log("Hellooo wellcome back gaisss!!")
+    </script>
+</head>
+<body>
+     <!--penulisan javascrip secara embed (ditempel langsung pada HTML)-->
+    <script>
+        console.log("Ngopi dulu nggak sihh");
+        document.write("Gimana hari ini??")
+    </script><br>
+    <!-- penulisan javascrip secara inline -->
+    <a href="#" onclick="alert('Yahh stalking yaaa')">Klik disini yaa</a><br>
+    <!-- penulisan javascrip secara eksternal -->
+    <h1>BOLANGERIE CAFE</h1>
+    <div id="hasil-output"></div>
+    <script src="EKSTERNAL JAVASCRIP.js"></script>
+</body>
+</html>
