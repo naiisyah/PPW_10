@@ -1,0 +1,110 @@
+<!-- LANGKAH PRAKTIKUM -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- EMBED -->
+    <!-- cara penulisan javascrip secara embed (ditempel langsung pada HTML) -->
+    <script>
+        console.log("Hello JS dari headd")
+    </script>
+</head>
+<body>
+    <!-- EMBED -->
+    <!--penulisan javascrip secara embed (ditempel langsung pada HTML)-->
+    <!-- menggunakan tag script untuk menempelkan (embed) kode Javascript
+p       ada HTML. Tag ini dapat ditulis di dalam tag head dan body. -->
+    <script>
+        console.log("Sya belajar Javascrip");
+        document.write("Helo World!")
+    </script><br>
+
+    <!-- INLINE -->
+    <!-- penulisan javascrip secara inline -->
+    <!-- menulis kode javascript di dalam atribut HTML. Cara ini biasanya
+        digunakan untuk memanggil suatu fungsi pada event tertentu.-->
+        <a href="#" onclick="alert('Haii')">Klik disini yaa</a><br>
+    <!-- atau dapat menggunakkan : -->
+        <a href="javascrip:alert('Yey!')">Klik disini yaa</a><br>
+
+    <!-- EKSTERNAL -->
+    <!-- penulisan javascrip secara eksternal -->
+    <!-- menulis kode javascript secara terpisah dengan file HTML. Cara ini
+        biasanya digunakan pada proyek-proyek besar, karena diyakini—dengan cara ini—dapat
+        lebih mudah mengelola kode project. b    -->
+    <script src="JAVASCRIP EKSTERNAL.js"></script>
+
+    <!-- CONSOLE.LOG -->
+    <!-- Fungsi console.log() biasanya digunakan untuk debugging. Karena setiap pesaan error di
+        Javascript selalu ditampilkan di dalam Console. Selain console.log(), terdapat juga beberapa
+        fungsi untuk debugging seperti console.debug(), console.info(), console.error(),
+        console.dir(), dan sebagainya. consol untuk print di consol -->
+    <script>
+        console.log("Hello World!!");
+    </script>
+</body>
+</html>
+
+<!-- ALERT -->
+<!-- Fungsi alert() adalah fungsi untuk menampilkan jendela dialog atau notifikasi. Fungsi sebenarnya berada
+    pada objek window. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        alert("Selamat datang di tutorial belajar Javascrip");
+
+        function sayHello(){
+            alert("Hello!");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="sayHello()">Klik aku!!</button>
+</body>
+</html>
+
+<!-- DOCUMENT.WRITE -->
+<!-- Objek document adalah objek yang mewakili dokumen HTML di dalam Javascript. Dalam
+objek document, terdapat fungsi write() untuk menulis sesuatu ke dokumen HTML. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("<h1>Hello World</h1>");
+        document.write("<hr>");
+        document.write("<p>Saya sedang belajar ppw javascrip</p>");
+        document.write("di<b>petanikode.com</b>");
+    </script>
+</head>
+<body>
+
+<!-- INNER HTML -->
+<!--  innerHTML adalah sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML.
+Dengan innerHTML, kita dapat menampilkan output ke elemen yang lebih spesifik. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tutorial Javascrip untuk Pemula</h1>
+    <div id="hasil-output"></div>
+    <script>
+        // membuat objek elemen
+        var hasil = document.getElementById("hasil-output");
+        // menampilkan output ke elemen hasil
+        hasil.innerHTML = "<p>Aku sukaa Javascrip</>";
+    </script>
+</body>
+</html>
